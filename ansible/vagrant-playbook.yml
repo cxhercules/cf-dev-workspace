@@ -1,0 +1,7 @@
+---
+ - hosts: all
+   become: true
+   roles:
+     - role: base 
+     - role: joshualund.golang
+     - role: bosh-cf-tools

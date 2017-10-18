@@ -1,0 +1,5 @@
+---
+- src: joshualund.golang
+  version: ed45a6b
+- src: https://github.com/cxhercules/ansible-bosh-cf-tools
+  name: bosh-cf-tools

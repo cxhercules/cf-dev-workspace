@@ -1,4 +1,6 @@
+## golang
 # Binaries for programs and plugins
+go/
 *.exe
 *.dll
 *.so
@@ -12,3 +14,15 @@
 
 # Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
 .glide/
+
+## vagrant
+# hidden files
+.vagrant
+
+## ansible
+# roles
+ansible/roles/*
+!ansible/roles/.gitkeep
+
+## misc
+deployment
